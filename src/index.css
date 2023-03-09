@@ -1,0 +1,288 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 450;
+}
+
+h4{
+  color: rgb(132, 132, 132);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1%;
+  text-align: center;
+  border-bottom: solid rgb(223, 223, 223) 1px;
+}
+
+.header-name{
+  text-align: center;
+  margin-left: -6ch;
+}
+
+.everything{
+  display: flex;
+}
+
+.menu-item{
+  border: none;
+  margin-top: -8px;
+  font-size: 3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+
+.note-card-date{
+  font-size: 0.7rem;
+  padding-top: 3%;
+  opacity: 0.5;
+  left: 20%;
+}
+
+.primary-title{
+  margin-left: 1.5ch;
+  margin-top: 1ch;
+}
+
+.note-date{
+  font-size: 0.7rem;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  color:rgb(132, 132, 132);
+  left: 20%;
+}
+
+.date-inputter{  
+  border: none;
+  margin-bottom: 1.5ch;
+}
+
+.modes{
+margin-right: 0px;
+margin-top: 15px;
+}
+
+.status-change{
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+  margin-top: 3ch;
+  color: rgb(61, 61, 61);
+  background-color: inherit;
+  font-size: 0.9rem;
+}
+
+.note-view{
+  font-size:x-large;  
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 2%;
+  border-bottom:rgb(207, 207, 207) 1px solid;
+  width: 100%;
+}
+
+.menu-item:hover{
+  background-color: #423A51;
+  color: white;
+}
+
+.menu-element{
+justify-content: center;
+margin-top: 1ch;
+margin-left: 2ch;
+}
+
+.note-list{
+  display: flex;
+  min-height: 89vh;
+  border-right: solid rgb(223, 223, 223) 1px;
+}
+
+
+.note-namer{
+  padding: 3%;
+  border-bottom: solid rgb(223, 223, 223) 1px;
+  font-size: x-large;
+  justify-content: space-between;
+}
+
+.filler-note{
+  color:rgb(132, 132, 132);
+  font-weight: regular;
+  font-size: large;
+  text-align: center;
+  padding: 5%;
+}
+
+.no-note-selected{
+  color:rgb(132, 132, 132);
+  text-align: center;
+  padding: 11%;
+  padding-top: 20%;
+  padding-right: 6%;
+  font-size:xx-large;  
+}
+
+.viewing{
+  width: 85%;
+  height: 90%;
+  overflow-wrap: break-word;
+  padding: 2%;
+  color:#313131;
+}
+
+.note-body{
+  height: 80vh;
+  display: flexbox;
+  flex-direction: column;
+  min-width: 100%;
+  max-width: 100%;
+  overflow-wrap: auto;
+}
+
+.dynamic-note-title{
+  padding-left: 2%;
+  width: 100%;
+  height: 50%;
+  font-size:1.4rem;
+  font-weight: 550;
+  color:rgb(58, 56, 56);
+  cursor: text;
+  border: none;
+  background-color: inherit;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.note-card-description{
+  font-weight: light;
+  font-size: 0.7rem;
+  color:rgb(165, 165, 165);
+  width: 100%;
+  height: 50%;
+
+}
+
+.dynamic-note-title:focus{
+  outline: none;
+}
+
+.all-notes{
+  height: 91vh;
+  overflow: auto; 
+  max-width: 100%;
+  flex: 0.6;
+  display: flex-box;
+  flex-direction: column;
+
+}
+
+.note-add-element{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  text-align:center;
+  overflow: auto;
+}
+
+.new-note{
+  flex: 1;
+  display: flex-box;
+  flex-direction: column;
+}
+
+.new-note-button{
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  font-size: 1.5rem;
+}
+
+.new-note-button:hover{
+  background-color: #423A51;
+  color: white;
+}
+
+.appear{
+  display: none;
+}
+
+.note-add-element{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  text-align:center;
+  justify-content: space-between;
+}
+
+.note-date{
+  font-size: 0.7rem;
+  padding-top: 3%;
+
+  color:rgb(132, 132, 132);
+  left: 20%;
+}
+
+.status-change{
+  cursor: pointer;
+  border: none;
+  margin-right: 2ch;
+  margin-top: 3ch;
+  color: rgb(61, 61, 61);
+  background-color: inherit;
+  font-size: 0.9rem;
+}
+
+.status-change:hover{
+  background-color: #423A51;
+  color: white;
+}
+
+li{
+  list-style-type: none;
+  padding: 3%;
+  border-bottom: solid rgb(223, 223, 223) 1px;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: #423A51;
+  color: rgb(255, 255, 255);
+}
+
+.current-view{
+  flex: 1;
+  display: flex-box;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pageContent{
+  display: flex;
+}
+
+.activity-here{
+  flex: 1;
+  display: flex-box;
+  flex-direction: column;
+  background-color: #423A51;
+  color: white;
+}
